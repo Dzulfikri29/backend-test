@@ -1,0 +1,76 @@
+@font-face { font-family: "Inter"; font-display: swap; src: local("Inter"); src: url("../fonts/Inter-Light.eot"); src: url("../fonts/Inter-Light.eot#iefix") format("embedded-opentype"), url("../fonts/Inter-Light.woff2") format("woff2"), url("../fonts/Inter-Light.woff") format("woff"), url("../fonts/Inter-Light.ttf") format("truetype"), url("../fonts/Inter-Light.svg") format("svg"); font-style: normal; font-weight: 300; }
+
+@font-face { font-family: "Inter"; font-display: swap; src: local("Inter"); src: url("../fonts/Inter-Regular.eot"); src: url("../fonts/Inter-Regular.eot#iefix") format("embedded-opentype"), url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff"), url("../fonts/Inter-Regular.ttf") format("truetype"), url("../fonts/Inter-Regular.svg") format("svg"); font-style: normal; font-weight: 400; }
+
+@font-face { font-family: "Inter"; font-display: swap; src: local("Inter"); src: url("../fonts/Inter-Semibold.eot"); src: url("../fonts/Inter-Semibold.eot#iefix") format("embedded-opentype"), url("../fonts/Inter-Semibold.woff2") format("woff2"), url("../fonts/Inter-Semibold.woff") format("woff"), url("../fonts/Inter-Semibold.ttf") format("truetype"), url("../fonts/Inter-Semibold.svg") format("svg"); font-style: normal; font-weight: 500; }
+
+@font-face { font-family: "Inter"; font-display: swap; src: local("Inter"); src: url("../fonts/Inter-Mediutm.eot"); src: url("../fonts/Inter-Mediutm.eot#iefix") format("embedded-opentype"), url("../fonts/Inter-Mediutm.woff2") format("woff2"), url("../fonts/Inter-Mediutm.woff") format("woff"), url("../fonts/Inter-Mediutm.ttf") format("truetype"), url("../fonts/Inter-Mediutm.svg") format("svg"); font-style: normal; font-weight: 600; }
+
+@font-face { font-family: "Inter"; font-display: swap; src: local("Inter"); src: url("../fonts/Inter-Bold.eot"); src: url("../fonts/Inter-Bold.eot#iefix") format("embedded-opentype"), url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff"), url("../fonts/Inter-Bold.ttf") format("truetype"), url("../fonts/Inter-Bold.svg") format("svg"); font-style: normal; font-weight: 700; }
+
+@font-face { font-family: "Druk Wide"; font-display: swap; src: local("Druk Wide"); src: url("../fonts/druk-wide-medium.eot"); src: url("../fonts/druk-wide-medium.eot#iefix") format("embedded-opentype"), url("../fonts/druk-wide-medium.woff2") format("woff2"), url("../fonts/druk-wide-medium.woff") format("woff"), url("../fonts/druk-wide-medium.ttf") format("truetype"), url("../fonts/druk-wide-medium.svg") format("svg"); font-style: normal; font-weight: 600; }
+
+.img-background
+{
+    background-image: url(../images/background.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+body
+{
+    background-color: #000;
+    font-family: Inter;
+    overflow-x: hidden;
+}
+
+
+.background-image__container
+{
+    position: fixed;
+    width: 100%;
+    height: 50%;
+}
+
+.background-image__container img
+{
+  position: relative; 
+  min-width: 100%;
+  height: 50vh;
+}
+
+.agros-font
+{
+    color: #4C9F70;
+}
+
+.card p
+{
+    font-size: 18px;
+}
+
+.button--reset
+{
+    text-align: left;
+    text-transform: uppercase;
+    border: none;
+    width: 444px;
+    height: 69px;
+    margin-left: 20px;
+    padding-left: 1.7rem;
+    font-size: 12px;
+}
+
+.text-gray
+{
+    color:#777;
+}
+
+.margin-left-54px
+{
+    margin-left: 54px;
+}
+
+footer{
+    font-size: 18px;
+}
