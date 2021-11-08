@@ -39,19 +39,6 @@
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="form-group">
-                                                    <label>Kategori</label>
-                                                    <select name="category_id" id="category_id" class="form-control select2"
-                                                        required>
-                                                        <option value="{{ $item->category->id }}">
-                                                            {{ $item->category->name }}</option>
-                                                    </select>
-                                                    @error('category_id')
-                                                        <small class="text-danger error_category_id">{{ $message }}</small>
-                                                    @enderror
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="form-group">
                                                     <label>Kode Barang</label>
                                                     <input type="text" class="form-control" id="code" name="code"
                                                         placeholder="Masukkan kode barang" required
@@ -139,20 +126,16 @@
                             <div class="card-body">
                                 <div class="form-actions">
                                     <div class="text-right">
-                                        @can('memperbarui barang', Model::class)
-                                            <button onclick="$('#form-data').trigger('submit')" class="btn btn-primary btn-save"
-                                                value="save">Simpan</button>
-                                        @endcan
-                                        @can('menghapus barang', Model::class)
-                                            <button class="btn btn-danger"
-                                                onclick="showDeleteConfirm({{ $item->id }})">Hapus</button>
-                                            <form id="delete-form{{ $item->id }}"
-                                                action="{{ route('item.destroy', ['item' => $item->id]) }}" method="POST"
-                                                class="d-none">
-                                                <input type="hidden" name="_method" value="DELETE">
-                                                @csrf
-                                            </form>
-                                        @endcan
+                                        <button onclick="$('#form-data').trigger('submit')" class="btn btn-primary btn-save"
+                                            value="save">Simpan</button>
+                                        <button class="btn btn-danger"
+                                            onclick="showDeleteConfirm({{ $item->id }})">Hapus</button>
+                                        <form id="delete-form{{ $item->id }}"
+                                            action="{{ route('item.destroy', ['item' => $item->id]) }}" method="POST"
+                                            class="d-none">
+                                            <input type="hidden" name="_method" value="DELETE">
+                                            @csrf
+                                        </form>
                                         <a href="{{ route('item.index') }}" class="btn btn-warning">Kembali</a>
                                     </div>
                                 </div>
