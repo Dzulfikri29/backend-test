@@ -1,0 +1,225 @@
+body {
+    overflow: hidden;
+}
+
+.select2 {
+    width: 100% !important;
+}
+
+.dropdown-toggle::after {
+    content: none !important;
+}
+
+table.dataTable {
+    border-collapse: collapse !important;
+}
+
+.valign-middle {
+    vertical-align: middle !important;
+}
+
+.valign-top {
+    vertical-align: top !important;
+}
+
+.content-wrapper table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child::before,
+.content-wrapper table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child::before {
+    border-radius: 50px !important;
+}
+
+.wh-200 {
+    width: 200px;
+    height: 200px;
+}
+
+.obj-fit-cover {
+    object-fit: cover;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    -webkit-animation: rotating 3s linear infinite;
+    -moz-animation: rotating 3s linear infinite;
+    -ms-animation: rotating 3s linear infinite;
+    -o-animation: rotating 3s linear infinite;
+    animation: rotating 3s linear infinite;
+}
+
+.white-space-nowrap {
+    white-space: nowrap;
+}
+
+.loader-page {
+    width: 100%;
+    height: 100vh;
+    bottom: 0;
+    position: fixed;
+    background-color: #ffffff;
+    transition: all 1s ease;
+    z-index: 10000;
+}
+
+.loader-page img {
+    margin: 5px;
+}
+
+.logo-loader-wrapper {
+    -webkit-animation: fade-in-fwd 3s ease;
+    animation: fade-in-fwd 3s ease;
+}
+
+.logo-circle {
+    height: 132px;
+}
+
+.logo-text {
+    height: 125px;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.loader-loaded {
+    -webkit-animation: slide-top 1s ease-in-out both;
+    animation: slide-top 1s ease-in-out both;
+}
+
+.logo-circle {
+    -webkit-animation: rotate 3s ease-in-out infinite both;
+    animation: rotate 3s ease-in-out infinite both;
+}
+
+.bg-lighter {
+    background-color: #F0F0F0;
+}
+
+.border-lighter {
+    border-color: #F0F0F0 !important;
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    50% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+    75% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    50% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+    75% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+
+@-webkit-keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    90% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        display: none !important;
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    90% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+    }
+
+    100% {
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%);
+        display: none !important;
+    }
+}
+
+@-webkit-keyframes fade-in-fwd {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-fwd {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.datatable-config tbody tr {
+    cursor: pointer !important;
+}

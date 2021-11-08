@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@page { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,body, main
+{
+    display: block;
+}
+
+.agros-text-color
+{
+    color:#4C9F70;
+}
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #404E67;
+    background-color: #fff;
+}
+
+.header__container
+{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 10%;
+}
+
+header
+{
+    padding: 20px 0px 0px 30px;
+}
+.header__logo
+{
+    width: 20%;
+    max-height: 20%;
+}
+
+.header__title
+{
+    font-size: 29px;
+    font-weight: 300;
+    color: #000;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+.header__invoice
+{
+    width: 20%;
+}
+
+.bill__container:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bill__container
+{
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+
+.bill__client
+{
+    float: left;
+    height: 100px;
+    width: 50%;
+    padding: 10px;
+}
+
+.table-header__container:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.table-header__container
+{
+    height: 40px;
+    padding: 0 35;
+    color:#000;
+    
+}
+.table__header--item
+{
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+.table__header--cubic
+{
+    float: left;
+    width: 60%;
+    padding: 10px 10px 10px 30px;
+}
+
+.bill__list
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bill__info
+{
+    margin-left: 15px;
+    margin-bottom: 6px;
+}
+
+.margin-left-10
+{
+    margin-left: 10px;
+}
+
+.margin-left-20
+{
+    margin-left: 20px;
+}
+
+.font-regular
+{
+    font-weight: 400;
+}
+
+ul 
+{
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+.border
+{
+    width:100%;
+    height:2px;
+    background-color: #f3f3f3;
+    margin-top: 10px;
+}
+
+
+
+.margin-top-10
+{
+    margin-top: 10px;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.font-light
+{
+    font-weight: 300;
+}
+
+.text-black 
+{
+    color: #000;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 0;
+}
+
+thead
+{
+    border-bottom: 1px solid #ddd;
+}
+
+td{
+  text-align: left;
+  padding: 14px;
+}
+th
+{
+    padding: 10px;
+    text-align: left;
+}
+td p
+{
+  
+  margin: 0;
+
+}
+
+td span
+{
+  padding: 0px;
+}
+  
+tbody
+{
+  font-size: 9px;    
+}
+
+
+tbody tr:nth-child(even) {
+   background-color: #f2f2f2;
+}
+
+#content
+{
+    margin: 0px 30px;
+}
+.flex
+{
+   display: flex;
+}
+
+.container 
+{
+    width: 80%;
+    margin: 50 30 20 40;
+}
+
+.signature__container::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.sign-name__container
+{
+    float: left;
+    width: 50%;
+}
+
+.sign-name__container p 
+{
+    margin: 0;
+}
+
+.amount-caption__container
+{
+    float: left;
+    width: 10%;
+}
+
+.amount-uppercase__container
+{
+    float: left;
+    width: 90%;
+    margin-left: 6px;
+    font-size: 16px;
+    margin-top: -3px;
+}
+.amount-capital__container
+{
+    height:60px;
+    margin-top: 40px;
+    padding-top: 10;
+    padding-bottom: 10;
+    padding-left: 55;
+    color: #fff;
+    max-width: 100%;
+}
+
+.amount-capital__container::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.amount__container
+{
+    float: left;
+    width: 50%;
+    margin-left: 85px;
+    margin-top: -8px;
+}
+.total__container
+{
+   flex: 33.3333%;
+}
+
+.w-100
+{
+    width: 100%;
+}
+
+.border-bottom-none 
+{
+    border-bottom: none !important;
+}
+
+tfoot
+{
+    font-size: 11px;
+}
+
+.font-small
+{
+    font-size: 9px;
+}
+
+footer
+{
+    background-color: #f1f2f2;
+    position:fixed;
+    height:9%;
+    bottom:0;
+    padding: 17 38 20;
+}
+
+footer::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer
+{
+    font-size: 9px;
+}
+.address__container
+{
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+}
+
+.info__container
+{
+    float: left;
+    width: 70%;
+    margin-left: 40px;
+    padding-left: 20px;
+}
+
+.info__container p
+{
+    margin: 0;
+}
+
+.due-date__container
+{
+    float: right;
+    width: 120px;
+    height: 20px;
+    padding-top: 2px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: #D1D3D4;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.ow {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+#address span
+{
+    display: inline-block;
+}
+
+.text-uppercase
+{
+    text-transform: uppercase;
+}
+
+.signature__container
+{
+    position:fixed;
+    bottom: 200px;
+    height: 200px;
+    padding-left: 15px;
+}
+
+.pl-60
+{
+    padding-left: 60px;
+}
+
+.bill__po_master_info__container:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bill__po_master_info__container
+{
+    margin-left: 30px;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.bill__client
+{
+    float: left;
+    padding: 10px;
+}
