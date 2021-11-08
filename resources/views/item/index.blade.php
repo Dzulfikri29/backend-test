@@ -40,6 +40,7 @@
                                             <th>Satuan</th>
                                             <th>Buffer Stock</th>
                                             <th>Deskripsi</th>
+                                            <th></th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -51,6 +52,10 @@
                                                 <td>{{ $item->unit }}</td>
                                                 <td>{{ $item->minimum_stock }}</td>
                                                 <td>{{ $item->description }}</td>
+                                                <td>
+                                                    <a href="{{ route('item.show', ['item' => $item->id]) }}"
+                                                        class="btn btn-primary">Lihat</a>
+                                                </td>
                                             </tr>
                                         @endforeach
                                     </tbody>
